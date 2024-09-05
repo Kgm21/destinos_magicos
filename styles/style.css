@@ -1,0 +1,72 @@
+body {
+    background-color: #9DBDFF ; 
+    margin: 0;
+}
+
+header {
+    height: 200px;
+    background-image: url('../assets/images/descarga.jpeg');
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header img {
+    object-fit: cover;
+}
+
+header h1 {
+    font-size: 60px;
+    color: gold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+   
+    font-style: normal;
+    
+}
+header a {
+    margin-right: 10px; 
+}
+nav ul {
+    list-style: none; 
+    margin: 0;
+    padding: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 20px; }
+
+nav a {
+    text-decoration: none; 
+    color:goldenrod;
+    padding: 15px 30px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    /*font-family: arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: black;
+  
+    
+}
+
+nav a:hover {
+    color: gold;
+    background-color:#b7b7b7; 
+    
+    transform: scale(1.05);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+nav {
+    background-color:#f0f8ff;
+}
+ 
+  
