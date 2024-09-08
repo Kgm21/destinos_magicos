@@ -8,8 +8,10 @@ header {
     background-image: url('../assets/images/descarga.jpeg');
     background-position: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 20px;
+   
     
 }
 
@@ -53,9 +55,7 @@ nav a {
     font-weight: bold;*/
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    color: black;
-  
-    
+    color: black;    
 }
 
 nav a:hover {
@@ -67,6 +67,75 @@ nav a:hover {
 }
 nav {
     background-color:#f0f8ff;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
 }
  
+
+/*busqueda*/
+.search-bar-container {
+    display: flex;
+    justify-content: center; /* Opcional para centrar horizontalmente */
+    align-items: center;
+    margin-top: 0px; /* Ajusta este valor para controlar la posición vertical */
+
+  }
+  .search-bar {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    width: 250px;
+    /* Asegúrate de que estos valores no sean demasiado pequeños */
+    min-height: 20px; /* Ajusta según sea necesario */
+    z-index: 1; /* Si hay otros elementos superpuestos */
+  }
   
+  .search-bar button {
+    position: relative;
+    left: 0;
+    top: 50%;
+    transform: translateY(20%);
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    margin: o auto;
+  }
+  .search-bar button img {
+    width: 20px;
+    height: 20px;
+  }
+  
+
+/*main*/
+.bienvenida {
+    font-size: 3rem;
+    color: #ffd700;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+    font-family: 'Sansita Swashed', cursive;
+    animation: wave 2s infinite alternate; /* Animación de onda */
+}
+
+.descripcion {
+    font-size: 1.2rem;
+    color: #fff;
+    max-width: 800px; /* Limita el ancho para mejor legibilidad */
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+@keyframes wave {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px); /* Movimiento hacia arriba */
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
