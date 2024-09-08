@@ -76,9 +76,9 @@ nav {
 /*busqueda*/
 .search-bar-container {
     display: flex;
-    justify-content: center; /* Opcional para centrar horizontalmente */
+    justify-content: center; 
     align-items: center;
-    margin-top: 0px; /* Ajusta este valor para controlar la posición vertical */
+    margin-top: 0px;
 
   }
   .search-bar {
@@ -87,9 +87,9 @@ nav {
     border-radius: 5px;
     padding: 15px;
     width: 250px;
-    /* Asegúrate de que estos valores no sean demasiado pequeños */
-    min-height: 20px; /* Ajusta según sea necesario */
-    z-index: 1; /* Si hay otros elementos superpuestos */
+    
+    min-height: 20px; 
+   
   }
   
   .search-bar button {
@@ -113,29 +113,23 @@ nav {
 .bienvenida {
     font-size: 3rem;
     color: #ffd700;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
     margin-bottom: 10px;
     font-family: 'Sansita Swashed', cursive;
-    animation: wave 2s infinite alternate; /* Animación de onda */
+    border: 2px solid transparent;
 }
 
 .descripcion {
-    font-size: 1.2rem;
-    color: #fff;
+    font-size: 1.5rem;
+    color: #f0f0f0;
     max-width: 800px; /* Limita el ancho para mejor legibilidad */
-    padding: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
+    line-height: 1.6;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 8px;
 }
 
-@keyframes wave {
-    0% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(-10px); /* Movimiento hacia arriba */
-    }
-    100% {
-        transform: translateY(0px);
-    }
-}
