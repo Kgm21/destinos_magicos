@@ -11,7 +11,9 @@
 </head>
 <body>
     <header>
-        <h1>Destinos Mágicos</h1>
+        <div class="title-container">
+            <h1>Destinos Mágicos</h1>
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html"><img src="/assets/icon/descarga.png" alt="home"></a></li>
@@ -20,25 +22,26 @@
                 <li><a href="./html/contacto.html"><img src="/assets/icon/icons8-correo-50.png" alt="correo">Contacto</a></li>
             </ul>
         </nav>
-        
+        <div class="search-bar-container">
+            <form action="#" class="search-bar">
+                <input type="text" name="search" placeholder="Buscar tours">
+                <button type="submit">
+                    <img src="/assets/icon/icons8-buscar-30.png" alt="Icono de búsqueda">
+                </button>
+            </form>
+        </div>
     
     </header>
-    
-    <main>
-        <div class="search-bar-container">  <div class="search-bar">
-            <form action="#">
-              <input type="text" name="search" placeholder="Buscar tours">
-              <button type="submit">
-                <img src="/assets/icon/icons8-buscar-30.png" alt="Icono de búsqueda">
-              </button>
-            </form>
-          </div>
+    <main class="container">
+        <div class="info-container">
+            <h1>¡Bienvenidos a Destinos Mágicos!</h1>
+            <p>Somos tu puerta de entrada a las aventuras más increíbles y los destinos más encantadores del mundo.</p>
         </div>
-        <div class="banner">
-            <h1 class="bienvenida">¡Bienvenidos a Destinos Mágicos!</h1>
-            <p class="descripcion">Somos tu puerta de entrada a las aventuras más increíbles y los destinos más encantadores del mundo.</p>
+        <div class="image-container">
+            <img src="./assets/images/b7ebff4982af2130ba1f193d29122fcb.jpg" alt="Image description">
         </div>
+
     </main>
-    
+
 </body>
 </html>
