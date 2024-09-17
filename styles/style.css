@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #1230AE;
+    background-image: linear-gradient(to right, lightblue, pink);
     margin: 0; /* Elimina todo margen del cuerpo */
 }
 
