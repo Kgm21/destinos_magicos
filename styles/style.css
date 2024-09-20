@@ -138,28 +138,87 @@ nav {
 }
 
 
+.info-container {
+    background-color: #f0f0f0;
+    padding: 40px;
+    border-radius: 5px;
+    max-width: 800px;
+  }
 
-.texto-bienvenida{
-color:gold ;
-  font-size: 50px;
-  text-shadow:2px 2px 4px #000;
-  text-align: center; /* Centrar el texto */
-  font-family: "Dancing Script", cursive;
- 
+  .texto-bienvenida {
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  .texto-bienvenida:hover {
+    transform: scale(1.05);
+  }
+  .parrafo {
+    font-family: Arial, sans-serif;
+  font-size: 22px;
+  color: #666;
+  line-height: 1.5;
+  text-align: justify;
+  margin: 20px 0;
+  }
+  .info-container h3{
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #666;
+    line-height: 1.5;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  .intro-container {
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 30px auto; /* Centramos el contenedor */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    position: relative;
+    overflow: hidden;
 }
-.parrafo{
-    color: black;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra suave */
-  background-color: #f0f0f0; /* Fondo gris claro */
-  padding: 20px;
-  border-radius: 5px;
 
+  
+.intro-container h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(to right, #f0f8ff, #87ceeb);
+    background: linear-gradient(to right, #f0f8ff, #87ceeb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-/*footer*/
-/* style.css */
+.intro-container p {
+    font-size: 1.4rem;
+    font-weight: 300; /* Fuente ligeramente más delgada */
+    color: #444;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.intro-container iframe {
+    width: 100%;
+    height: 400px; /* Aumentamos la altura para que el video sea más grande */
+    border: none;
+    position: relative;
+    display: block; /* Nos aseguramos que el iframe se comporte como un bloque */
+}
+
+  /*footer*/
+
+
 .footer {
     background-color: #f4f4f4;
     padding: 20px;
