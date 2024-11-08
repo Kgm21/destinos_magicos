@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Playfair Display", serif ;
+    font-size: 60px;
+    width: 100vw;
+}
+
+/*header*/
+header{
+    background-color:#B7E0FF ;
+    width: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+h1{
+    color: coral;
+    font-size: 1.5em;
+    font-family:"Dancing Script", serif ;
+    margin: 0;
+}
+.buscador{
+    background-color: aqua;
+}
+#btnBuscar:hover{
+    background-color: #E78F81;
+}
+a{
+    font-weight: bolder;
+    font-size: 0.5em;
+   
+}
+
+.enlaces{
+    color: red;
+    list-style: none;
+
+}
+.enlaces:hover{
+    color: orangered;
+    font-size: x-large;
+    font-weight: 20em;
+}
+#lnkInicio{
+    color: black;
+}
+nav a{
+    
+}
+
+
+/*main*/
+main{
+    background-color:#FFF5CD ;
+    margin: 0;
+    font-size: 0.5em;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#errorSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    background-color:burlywood;
+}
+
+#errorSection:hover{
+    transition-property: background-color;
+    transition-duration: 5s;
+    transition-delay: 1s;
+    background-color:#E78F81;
+    color:black
+}
+
+#errorSection:not(hover){
+    transition-property: background-color;
+    transition-duration: 5s;
+    transition-delay: 1s;
+    background-color: burlywood;
+
+}
+#error1{
+    color: grey;
+}
+
+
+/*footer*/
+footer{
+    background-color:#E78F81;
+    font-size: 15px;
+    margin: 0;
+    min-height: 20vh;
+    
+}
+footer ul{
+    margin: 0;
+}
+footer p{
+    margin: 0;
+    font-size:1em;
+}
