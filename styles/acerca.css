@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Playfair Display", serif ;
+    font-size: 60px;
+    width: 100vw;
+}
+
+/*header*/
+header{
+    background-color:#B7E0FF ;
+    width: 1em;
+}
+h1{
+    color: coral;
+    font-size: 1.5em;
+    font-family:"Dancing Script", serif ;
+    margin: 0;
+}
+.buscador{
+    background-color: aqua;
+}
+#btnBuscar:hover{
+    background-color: #E78F81;
+}
+a{
+    font-weight: bolder;
+    font-size: 0.5em;
+    list-style: none;
+}
+
+.enlaces{
+    color: red;
+   
+}
+.enlaces:hover{
+    color: orangered;
+    font-size: x-large;
+    font-weight: 20em;
+
+}
+#lnkInicio{
+    color: black;
+    
+}
+nav a{
+    list-style: none;
+}
+/*main*/
+main{
+    background-color:#FFF5CD ;
+    margin: 0;
+    font-size: 0.5em;
+    min-height: 100vh;
+    
+}
+h2{
+    font-family:"Dancing Script", serif ;
+    margin: 0;
+    
+}
+h3{
+    color: red;
+}
+
+
+/*footer*/
+footer{
+    background-color:#E78F81;
+    font-size: 15px;
+    margin: 0;
+    min-height: 20vh;
+    
+}
+footer ul{
+    margin: 0;
+}
+footer p{
+    margin: 0;
+    font-size:1em;
+}
+
+
