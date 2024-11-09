@@ -3,76 +3,131 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family:"Playfair Display", serif ;
-    font-size: 60px;
-    width: 100vw;
+    font-size: 16px;
+    /*width: 100vw;*/
 }
 
 /*header*/
-header{
-    background-color:#B7E0FF ;
-    width: 1em;
+
+header {
+    padding: 0.5rem;
+    background-color: #605678;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
 }
-h1{
-    color: coral;
-    font-size: 1.5em;
-    font-family:"Dancing Script", serif ;
-    margin: 0;
-}
-.buscador{
-    background-color: aqua;
-}
-#btnBuscar:hover{
-    background-color: #E78F81;
-}
-a{
-    font-weight: bolder;
-    font-size: 0.5em;
+.navEnlaces {
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+
 }
 
-.enlaces{
-    color: red;
+h1 {
+    color: coral;
+    font-size: 2em;
+    font-family: "Dancing Script", serif;
+    margin: 0;
+    
+
 }
-.enlaces:hover{
-    color: orangered;
-    font-size: x-large;
-    font-weight: 20em;
+
+
+#buscar{
+    width: 25vw;
+    border-radius: 5px;
+    
+    padding: 4px;
 }
-#lnkInicio{
+#btnBuscar{
+    padding: 4px;
+    background-color:orange ;
+    border-radius: 5px;
+    border:0.5 solid #fff4ea;
+    border-style: none;
+    color: #c96868 ;
+}
+
+#btnBuscar:hover{
+    background-color: orange;
+}
+
+
+a {
+    font-weight: bolder;
+    font-size: 0.5em;
+    text-decoration: none;
+}
+
+
+
+.enlaces {
     color: black;
 }
 
+.enlaces:hover {
+    color: #8ABFA3;
+    font-size: x-large;
+    font-weight: 20em;
+}
+
+#lnkInicio {
+    color: black;
+}
+
+
 /*main*/
-main{
-    background-color:#FFF5CD ;
+main {
+    background-color: #FFE6A5;
     margin: 0;
-    font-size: 0.5em;
+    padding: 1%;
     min-height: 100vh;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    justify-content: center;
 }
-h2{
-    font-family:"Dancing Script", serif ;
-    margin: 0;
-    
+
+#frmContacto{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+   
+
 }
-h3{
-    color: red;
-}
+
+
 
 
 /*footer*/
-footer{
-    background-color:#E78F81;
+footer {
+    background-color: #E78F81;
     font-size: 15px;
     margin: 0;
     min-height: 20vh;
-    
-}
-footer ul{
-    margin: 0;
-}
-footer p{
-    margin: 0;
-    font-size:1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+footer ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+footer p {
+    margin: 10px 0 0 0;
+    font-size: 1em;
+    text-align: center;
+}
 
