@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,60 +8,71 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
+
 <body>
     <header>
-        <div class="title-container">
+        
             <h1>Destinos Mágicos</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html"><img src="/assets/icon/descarga.png" alt="home"></a></li>
-                <li><a href="./html/acerca.html">Nosotros</a></li>
-                <li><a href="./html/destinos.html"><img src="/assets/icon/icons8-disney-30.png" alt="Icono de Disney">Tours</a></li>
-                <li><a href="./html/contacto.html"><img src="/assets/icon/icons8-correo-50.png" alt="correo">Contacto</a></li>
-            </ul>
+   
+        <nav class="navEnlaces">
+            
+                <a href="index.html"class="enlaces" id="enlaces">Inicio</a>
+                <a href="./html/acerca.html"class="enlaces">Nosotros</a>
+                <a href="./html/destinos.html" class="enlaces">Tours</a>
+               <a href="./html/contacto.html"class="enlaces">Contacto</a>
+            
         </nav>
-        <div class="search-bar-container">
-            <form action="#" class="search-bar">
-                <input type="text" name="search" placeholder="Buscar tours">
-                <button type="submit">
-                    <img src="/assets/icon/icons8-buscar-30.png" alt="Icono de búsqueda">
-                </button>
+        
+            <form action="#" >
+                <input type="text" class="busacdor" id="buscar" name="search" placeholder="Buscar tours" >
+               <input type="button" class="buscador" id="btnBuscar" value="Buscar" >
             </form>
-        </div>
-    
+        
+       
     </header>
-    <main class="container">
-        <div class="info-container">
-            <h2 class="texto-bienvenida">¡Bienvenidos a Destinos Mágicos!</h2>
-            <h3>¿Listo para vivir experiencias inolvidables?</h3>
-
-            <br>
-            <p class="parrafo">
-                 Somos tu puerta de entrada a lugares mágicos. Ofrecemos vuelos, alojamiento y actividades para que tu viaje sea perfecto.</p>
-        </div>
-        <div class="image-container">
-            <img src="./assets/images/b7ebff4982af2130ba1f193d29122fcb.jpg" alt="Image description">
-        </div>
-        <div class="intro-container">
-            <h2>¿Estás listo para vivir una aventura mágica?</h2>
-            <p>En este video te mostraremos todo lo que necesitas saber para planificar tus vacaciones perfectas en Disney World. Desde las mejores atracciones hasta los hoteles más cómodos, ¡tenemos todos los detalles para que tu viaje sea inolvidable!</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/M6jcXd74fsU?si=AOWzGdv-Ji121YwO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-
+    <main>
+        <h2 class="texto-bienvenida">¡Bienvenidos a Destinos Mágicos!</h2>
+        <section>
+            <article id="aticleIntro">
+                <h3>¿Listo para vivir experiencias inolvidables?</h3>
+                <div class="contenido">
+                    <img src="./assets/images/b7ebff4982af2130ba1f193d29122fcb.jpg" alt="Image description" width="400">
+                    <p class="parrafo">
+                    Somos tu puerta de entrada a lugares mágicos. Ofrecemos vuelos, alojamiento y actividades para que tu
+                    viaje sea perfecto.</p>
+                </div>
+            </article>
+       
+            <article >
+                <h3>¿Estás listo para vivir una aventura mágica?</h2>
+                <p>En este video te mostraremos todo lo que necesitas saber para planificar tus vacaciones perfectas en
+                    Disney World. Desde las mejores atracciones hasta los hoteles más cómodos, ¡tenemos todos los
+                    detalles para que tu viaje sea inolvidable!</p>
+                    <div id="contenido2" > 
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/M6jcXd74fsU?si=AOWzGdv-Ji121YwO"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="youtube"></iframe>
+                    </div>
+            </article>
+        </section>
     </main>
+    
     <footer class="footer">
-        <nav>
+        <nav class="footerNav">
             <ul>
-                <li><a href="#" target="_blank"><img src="../assets/icon/icons8-facebook-nuevo-30.png" alt="facebook"></a></li>
-                <li><a href="#" target="_blank"><img src="../assets/icon/icons8-instagram-50.png" alt="instagram"></a></li>
-                <li><a href="#" target="_blank"><img src="../assets/icon/icons8-whatsapp-30.png" alt="whatsapp"></a></li>
+                <li><a href="#" target="_blank"><img src="../assets/icon/icons8-facebook-nuevo-30.png"
+                            alt="facebook"></a></li>
+                <li><a href="#" target="_blank"><img src="../assets/icon/icons8-instagram-50.png" alt="instagram"></a>
+                </li>
+                <li><a href="#" target="_blank"><img src="../assets/icon/icons8-whatsapp-30.png" alt="whatsapp"></a>
+                </li>
             </ul>
         </nav>
         <br>
-        
+
         <p>&copy;Proyecto de Karen</p>
     </footer>
 

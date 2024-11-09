@@ -7,35 +7,84 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/acerca.css">
 </head>
 <body>
     <header>
-        <div class="title-container">
-            <h1>Destinos Mágicos</h1>
-        </div>
-        <nav>
+        
+        <h1>Destinos Mágicos</h1>
+
+        <nav class="navEnlaces">
+        
+            <a href="../index.html"class="enlaces" id="enlaces">Inicio</a>
+            <a href="./html/acerca.html"class="enlaces">Nosotros</a>
+            <a href="./destinos.html" class="enlaces">Tours</a>
+           <a href="./contacto.html"class="enlaces">Contacto</a>
+        
+        </nav>
+    
+        <form action="#" >
+            <input type="text" class="busacdor" id="buscar" name="search" placeholder="Buscar tours" >
+           <input type="button" class="buscador" id="btnBuscar" value="Buscar" >
+        </form>
+    
+   
+    </header>
+    
+    <main class="container">
+        <h1>¿Por qué elegirnos para tus próximas vacaciones?</h1>
+        <h2>Destinos Mágicos: Donde los Sueños Despegan</h2>
+        <p>En un pequeño rincón de la ciudad, donde los mapas antiguos adornaban las paredes y el aroma a café recién hecho invitaba a soñar, nació Destinos Mágicos. Fue en el año 2005 cuando [Nombre del fundador], un apasionado viajero con una innata capacidad para descubrir tesoros escondidos en cada rincón del mundo, decidió compartir su pasión con los demás.</p>
+        <p>Con una maleta llena de sueños y una guía turística bajo el brazo, [Nombre del fundador] abrió las puertas de su pequeña oficina. Al principio, eran pocos los que se aventuraban a confiar en un joven emprendedor con una idea tan ambiciosa. Sin embargo, su entusiasmo y su conocimiento de los destinos más exóticos pronto comenzaron a dar sus frutos.</p>
+        <img src="../assets/images/agencia.png" alt="imagen agencia" width="400">
+        <p>Poco a poco, Destinos Mágicos se convirtió en el referente para aquellos que buscaban algo más que unas simples vacaciones. Los clientes de [Nombre del fundador] no solo buscaban sol y playa, sino experiencias auténticas, aventuras inolvidables y la oportunidad de conocer culturas diferentes.</p>
+       <p>A medida que la agencia crecía, también lo hacía su equipo. Se unieron a [Nombre del fundador] un grupo de jóvenes profesionales, cada uno con su propia especialidad: expertos en destinos, guías turísticos, traductores y organizadores de eventos. Juntos, crearon una red de contactos en todo el mundo, lo que les permitió ofrecer a sus clientes una amplia gama de servicios, desde la reserva de vuelos y hoteles hasta la organización de itinerarios personalizados y la contratación de guías locales.</p>
+       <img src="../assets/images/atencion al cliente 1.jpg" alt="atencion al cliente" width="300">
+       <p>Con el paso de los años, Destinos Mágicos se consolidó como una de las agencias de viajes más prestigiosas del país. Sus clientes hablaban maravillas de sus viajes, y las redes sociales se llenaron de fotos y comentarios positivos. La agencia había logrado su objetivo: hacer realidad los sueños de viaje de sus clientes.
+
+        Hoy en día, Destinos Mágicos sigue siendo un referente en el sector turístico. Su compromiso con la calidad, su pasión por los viajes y su atención al detalle hacen que cada viaje sea una experiencia única e inolvidable.</p>
+       <br>
+       <p>Los últimos años han sido de constante crecimiento y evolución para nuestra agencia. Hemos logrado consolidarnos como un referente en el sector, gracias a nuestro compromiso con la excelencia y la satisfacción del cliente. Los datos que se presentan a continuación son una muestra tangible de nuestros logros.</p>
+        <table>
+            <tr>
+                <th>Año</th>
+                <th>Destinos</th>
+                <th>Clientes sastifechos</th>
+            </tr>
+            <tr>
+                <th>2023</th>
+                <th>50</th>
+                <th>98%</th>
+            </tr>
+            <tr>
+                <th>2022</th>
+                <th>45</th>
+                <th>97%</th>
+            </tr>
+            <tr>
+                <th>2021</th>
+                <th>40</th>
+                <th>95%</th>
+            </tr>
+        </table>
+       <br>
+       <a href="contacto.html">Visitanos</a>
+    </main>
+    <footer class="footer">
+        <nav class="footerNav">
             <ul>
-                <li><a href="../index.html"><img src="/assets/icon/descarga.png" alt="home"></a></li>
-                <li><a href=" acerca.html">Nosotros</a></li>
-                <li><a href="destinos.html"><img src="/assets/icon/icons8-disney-30.png" alt="Icono de Disney">Tours</a></li>
-                <li><a href="contacto.html"><img src="/assets/icon/icons8-correo-50.png" alt="correo">Contacto</a></li>
+                <li><a href="#" target="_blank"><img src="../assets/icon/icons8-facebook-nuevo-30.png"
+                            alt="facebook"></a></li>
+                <li><a href="#" target="_blank"><img src="../assets/icon/icons8-instagram-50.png" alt="instagram"></a>
+                </li>
+                <li><a href="#" target="_blank"><img src="../assets/icon/icons8-whatsapp-30.png" alt="whatsapp"></a>
+                </li>
             </ul>
         </nav>
-        <div class="search-bar-container">
-            <form action="#" class="search-bar">
-                <input type="text" name="search" placeholder="Buscar tours">
-                <button type="submit">
-                    <img src="/assets/icon/icons8-buscar-30.png" alt="Icono de búsqueda">
-                </button>
-            </form>
-        </div>
-    
-    </header>
-    <main class="container">
-        
-    </main>
-    
+        <br>
+
+        <p>&copy;Proyecto de Karen</p>
+    </footer>
 
 </body>
 </html>

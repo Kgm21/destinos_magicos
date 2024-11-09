@@ -7,37 +7,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/destinos.css">
+    <link rel="stylesheet" href="../styles/error404.css">
 </head>
 <body>
-    
-        <header>
-        
+    <header>
+        <div class="title-container">
             <h1>Destinos Mágicos</h1>
-   
-        <nav class="navEnlaces">
-            
-                <a href="../index.html"class="enlaces" id="enlaces">Inicio</a>
-                <a href="./acerca.html"class="enlaces">Nosotros</a>
-                <a href="./destinos.html" class="enlaces">Tours</a>
-               <a href="./contacto.html"class="enlaces">Contacto</a>
-            
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="acerca.html">Nosotros</a></li>
+                <li><a href="error404.html">Tours</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
         </nav>
-        
-            <form action="#" >
-                <input type="text" class="busacdor" id="buscar" name="search" placeholder="Buscar tours" >
-               <input type="button" class="buscador" id="btnBuscar" value="Buscar" >
+        <div class="search-bar-container">
+            <form action="#" class="search-bar">
+                <input type="text" name="search" placeholder="Buscar tours">
+                <button type="submit">
+                    <img src="../assets/icon/icons8-buscar-30.png" alt="Icono de búsqueda">
+                </button>
             </form>
-        
-       
+        </div>
+    
     </header>
-    
-    
-    <main class="container">
-        
+    <main >
+        <section id="errorSection">
+            <h1 id="error1">Error 404!</h1>
+            <p>Pagina en construccion</p>
+            <a href="../index.html">Inicio</a>
+        </section>
+       
     </main>
     <footer class="footer">
-        <nav class="footerNav">
+        <nav>
             <ul>
                 <li><a href="#" target="_blank"><img src="../assets/icon/icons8-facebook-nuevo-30.png"
                             alt="facebook"></a></li>
@@ -51,11 +55,6 @@
 
         <p>&copy;Proyecto de Karen</p>
     </footer>
-
-
-   
-    
-
 
 </body>
 </html>
