@@ -11,23 +11,24 @@
 </head>
 <body>
     <header>
-        <div class="title-container">
-            <h1>Destinos Mágicos</h1>
-        </div>
-        <nav>
-            <a href="./index.html"class="enlaces" id="lnkInicio">Inicio</a>
+        
+        <h1>Destinos Mágicos</h1>
+
+        <nav class="navEnlaces">
+        
+            <a href="../index.html"class="enlaces" id="enlaces">Inicio</a>
             <a href="acerca.html"class="enlaces">Nosotros</a>
-            <a href="error404.html" class="enlaces">Tours</a>
-           <a href="contacto.html"class="enlaces">Contacto</a>
+            <a href="./destinos.html" class="enlaces">Tours</a>
+           <a href="./contacto.html"class="enlaces">Contacto</a>
+        
         </nav>
-        <div class="search-bar-container">
-            <form action="#" class="search-bar">
-                <input type="text" name="search" placeholder="Buscar tours">
-                <button type="submit">
-                    <img src="/assets/icon/icons8-buscar-30.png" alt="Icono de búsqueda">
-                </button>
-            </form>
-        </div>
+    
+        <form action="#" >
+            <input type="text" class="busacdor" id="buscar" name="search" placeholder="Buscar tours" >
+           <input type="button" class="buscador" id="btnBuscar" value="Buscar" >
+        </form>
+    
+   
     </header>
     
     <main class="container">
@@ -69,9 +70,8 @@
        <br>
        <a href="contacto.html">Visitanos</a>
     </main>
-    
     <footer class="footer">
-        <nav>
+        <nav class="footerNav">
             <ul>
                 <li><a href="#" target="_blank"><img src="../assets/icon/icons8-facebook-nuevo-30.png"
                             alt="facebook"></a></li>
@@ -85,5 +85,7 @@
 
         <p>&copy;Proyecto de Karen</p>
     </footer>
+
+        
 </body>
 </html>
